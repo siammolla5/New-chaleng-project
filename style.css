@@ -1,0 +1,124 @@
+.main-container{
+    height: 500px;
+    width: 900px;
+    background-color: rgba(157, 157, 157, 0.861);
+    justify-content: center;
+    position: relative;
+    right: -150px;
+    top: 20px;
+}
+.Reviewers-div{
+    width: 40%;
+}
+.full-container{
+    padding: 10px;
+}
+.rigthsite-container-one{
+    position: relative;
+    top: 50px;
+    right: -50px;
+}
+.list-tow{
+    position: relative;
+    top: -50px;
+}
+.list-three{
+    position: relative;
+    top: -100px;
+}
+.chacklist{
+    position: relative;
+    right: -40px;
+    top: -40px;
+    color: rgb(128, 255, 0);
+
+}
+.Academic{
+    position: relative;
+    right: -40px;
+    top: -40px;
+    color: red;
+}
+.Review{
+    position: relative;
+    right: -40px;
+    top: -40px; 
+}
+.rightsite-container{
+    position: relative;
+    top: 20px;
+}
+.leftsite-container-one{
+    height: 130px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+    top: 290px;
+    right: 150px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.leftsites-containers-tow{
+    height: 130px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+    top:-10px;
+    right: 20px;
+    border-radius: 10px;
+    
+}
+.full-container{
+    display: flex;
+}
+.google-testimonial{
+    height: 30px;
+    width: 50px;
+}
+.star-icon-img{
+   position: relative;
+   right: -65px;
+   top: -33px;
+}
+.writen{
+    position: relative;
+    top: -50px;
+
+}
+.highly{
+    position: relative;
+    top: -10px;
+}
+.leftsites-containers-tow{
+    padding: 10px;
+}
+.staricons-meet{
+   position: relative;
+   right: -65px;
+   top: -33px;
+}
+.writendive{
+    position: relative;
+    top: -15px;
+    right: 68px;
+}
+/*responsice midiyaquri*/
+@media screen and (max-width:576px) {
+
+    .full-container{
+        flex-direction: column;
+        
+    }
+    .leftsite-container{
+        position: relative;
+        right: -170px;
+        top: -100px;
+    }
+    .main-container{
+        width: 449px;
+        height:900px;
+        position: relative;
+        left: -50px;
+        padding: 20px;
+    }
+}
